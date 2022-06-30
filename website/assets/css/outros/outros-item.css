@@ -5,3 +5,9 @@
     width: 100%;
     max-width: 300px;
 }
+
+@media (max-width: 559.9px) {
+    .outros__item{
+        margin-top: 10px;
+    }
+}
