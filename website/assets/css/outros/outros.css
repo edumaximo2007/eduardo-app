@@ -1,0 +1,9 @@
+.outros{
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 559.9px) {
+    .outros{
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.principal{
+    width: 25%;
+    background: var(--base);
+}
+
+@media screen and (max-width: 1024px) {
+    .principal{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .principal{
+        width: 100%;
+    }
+}
+

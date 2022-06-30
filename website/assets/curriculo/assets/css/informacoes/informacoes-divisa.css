@@ -1,0 +1,10 @@
+.informacoes__divisa{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .informacoes__divisa{
+        flex-direction: column;
+    }
+}

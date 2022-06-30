@@ -1,0 +1,15 @@
+.projeto__botao___link:hover{
+    background: var(--branco);
+    color: var(--preto);
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+.projeto__botao___link{
+    background: none;
+    border-radius: 6px;
+    border:1px solid var(--branco);
+    color: var(--branco);
+    padding: 10px 5px;
+    
+}

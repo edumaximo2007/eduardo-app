@@ -1,0 +1,7 @@
+.principais__img{
+    border: 5px solid var(--borda);
+    border-radius: 250px;
+    width: 50%; 
+    position: relative;
+    top: 50px;
+}

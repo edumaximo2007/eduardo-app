@@ -1,0 +1,6 @@
+@media screen and (max-width: 600px) {
+    .certificados__lista{
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}

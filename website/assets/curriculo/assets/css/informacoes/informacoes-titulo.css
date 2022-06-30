@@ -1,0 +1,11 @@
+.informacoes__titulo{
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .informacoes__titulo{
+        font-size: 1rem;
+    }
+    
+}

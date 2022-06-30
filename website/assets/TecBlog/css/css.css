@@ -1,0 +1,95 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+main{
+    width: 90%; /* 920px = 90%*/
+    margin: 0 auto;
+    background: #fff url(../images/coluna.png) repeat-y left top;
+    background-size: 35%;
+    min-width: 820px;
+
+}
+
+header{
+    width: 100%;
+   height: 200px;
+   background: #225992 url(../images/cabecalho2.jpg) no-repeat center; 
+   text-align: center;
+   line-height: 200px;
+}
+
+section{
+    border: 1px solid;
+    float: right;
+    width: 68%; /*  620px = 68.88*/
+}
+
+#principal{
+    float: left;
+    width: 54%; /* 300px = 53.57*/
+    border: 1px solid;
+   
+}
+
+
+img.image-notice{
+    border: 1px solid;
+    width: 96%;
+    padding: 2%;
+    max-width: 600px;
+}
+#secundario{   
+    float: right;
+    width: 38%; /* 260 = 46.42*/
+    background: #d1d1d1;
+
+}
+
+
+nav{
+    float: left;
+    width: 30%; /* 280 = 31.1*/
+    /*background: lightcyan;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+nav ul{
+    list-style: none;
+}
+
+nav ul a{
+    background: url(../images/menu.png)  no-repeat  left  bottom;
+    height: 40px;
+    display: block;
+    width: 60%; /*200px = 60%*/
+    text-decoration: none;
+    line-height: 40px;
+    text-indent: 40px;
+    color: black;
+}
+
+nav ul a:hover{
+    background-position: right bottom;
+    color: whites;
+
+}
+footer{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+    text-align: center;
+}
+
+
+#secundario h1,
+#secundario h2,
+#secundario h3,
+#secundario p,
+#principal{
+    padding-left: 20px;
+    padding-right: 20px;
+}

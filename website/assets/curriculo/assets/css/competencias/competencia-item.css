@@ -1,0 +1,17 @@
+.competencias__item{
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.competencias__item i{
+    color: var(--roxo);
+} 
+
+
+@media screen and (max-width: 768px) {
+    .competencias__item{
+        flex-direction: column;
+    }
+}

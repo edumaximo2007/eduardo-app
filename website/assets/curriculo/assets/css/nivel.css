@@ -1,0 +1,10 @@
+.nivel{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    .nivel{
+        margin-bottom: 5px;
+    }
+}

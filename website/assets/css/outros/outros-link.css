@@ -1,0 +1,20 @@
+.outros__link{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.outros__item:hover .outros__link{
+    opacity: 0.5;
+    transition: 550ms;
+    border-radius: 0 0 8px 8px;
+    text-decoration: none;
+    color: #f1f1f1; 
+}

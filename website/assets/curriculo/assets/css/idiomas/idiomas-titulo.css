@@ -1,0 +1,14 @@
+.idiomas__titulo{
+    border-bottom: 1px solid var(--cores-fonte);
+    color: var(--roxo);
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .idiomas__titulo{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+}

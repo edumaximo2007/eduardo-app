@@ -1,0 +1,4 @@
+.navegacao{
+    background-color: var(--fundo-dois) !important;
+    flex-direction: row-reverse;
+}

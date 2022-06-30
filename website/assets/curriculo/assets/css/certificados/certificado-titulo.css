@@ -1,0 +1,5 @@
+.certificado__titulo{
+    border-bottom: 1px solid var(--cores-fonte);
+    color: var(--roxo);
+    margin-bottom: 10px;
+}

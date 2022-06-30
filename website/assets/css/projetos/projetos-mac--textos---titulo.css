@@ -1,0 +1,22 @@
+.projetos__mac-textos___titulo{
+    color: var(--amarelo);
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .projetos__mac-textos___titulo{
+    font-size: 2.5rem;   
+    margin-bottom: 10px;
+    }
+    
+}
+
+
+@media screen and (max-width: 767.9px) {
+    .projetos__mac-textos___titulo{
+    font-size: 1.5rem;    
+    }
+    
+}

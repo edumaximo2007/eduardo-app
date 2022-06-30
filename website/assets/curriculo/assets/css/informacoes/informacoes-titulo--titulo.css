@@ -1,0 +1,12 @@
+.informacoes__titulo-titulo{
+    color: var(--roxo);
+}
+
+
+@media screen and (max-width: 768px) {
+    .informacoes__titulo-titulo{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+}

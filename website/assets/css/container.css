@@ -1,0 +1,15 @@
+.containerr{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .containerr{
+        padding-left: 50px;
+        padding-right: 50px;  
+    }
+    
+}

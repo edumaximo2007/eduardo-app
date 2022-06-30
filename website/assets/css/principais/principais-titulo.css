@@ -1,0 +1,20 @@
+.principais__titulo{
+    font-size: 8rem;
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .principais__titulo{
+    font-size: 6rem;    
+    }
+    
+}
+
+
+@media screen and (max-width: 767.9px) {
+    .principais__titulo{
+    font-size: 2rem;    
+    }
+    
+}

@@ -1,0 +1,18 @@
+:root{
+    --amarelo: #FFE73D;
+    --branco: #FFFFFF;
+    --fundo: #272727;
+    --fundo-dois: #252525;
+    --gelo: #D7DBD2;
+    --preto: #000000;
+}
+
+body{
+    color: var(--fundo);
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {box-sizing: border-box;}
+

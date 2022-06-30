@@ -1,0 +1,101 @@
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.cabecalho{
+    background-color: #FFFFFF;
+    border-top: 1px solid #6D78A8;
+    display: flex;
+    justify-content: space-around;
+    padding:20px 0 ;
+
+}
+
+.nav__lista{
+    display: flex;
+    gap: 10px;
+}
+
+.nav__item{
+    list-style: none;
+}
+
+.nav__link{
+    color: rgb(136, 124, 146);
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    color: rgb(2, 2, 10);
+}
+
+.principal{
+    background-color: #efe5e9EF;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-right: 15px;
+    width: 70%;
+}
+.principais__imagem{
+    border: 5px solid #6D78A8;
+    width: 98%;
+}
+
+.principais, .quem-Somos, .contato{
+    padding-bottom: 100px;
+    margin-left: 25px;
+}
+
+.rodape{
+    background-color: #faefef;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+/* contato */
+
+.contatos__formulario{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    padding: 8px;
+    width: 180px ;
+}
+
+.contato{
+    height: 80vh;
+}
+
+input[type="submit"]{
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+}
+
+input[type="submit"]:hover{
+    background-color: #FFFFFF;
+}
+
+/* mobile */
+
+@media screen and (max-width: 500px) {
+
+    header{
+        justify-content: flex-start;
+    }
+    header img{
+        display: none;
+    }
+    ul{
+        gap: 5px;
+        justify-content: space-around;
+    }
+
+    #img{
+        display: none;
+    }
+
+}

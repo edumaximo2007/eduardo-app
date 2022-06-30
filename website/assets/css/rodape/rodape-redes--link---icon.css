@@ -1,0 +1,14 @@
+.rodape__redes___link-icon{
+    color: var(--fundo);
+}
+
+.rodape__redes___link-icon:hover{
+    color: var(--fundo-dois);
+}
+
+@media screen and (max-width: 445px) {
+    .rodape__redes___link-icon{
+    font-size: 20px;
+    }
+    
+}

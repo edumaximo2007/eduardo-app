@@ -1,0 +1,21 @@
+.outro__titulo{
+    font-weight: 800;
+    font-size: 3.5rem;
+    padding: 30px 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .outro__titulo{
+    font-size: 2.5rem;    
+    }
+    
+}
+
+
+@media screen and (max-width: 767.9px) {
+    .outro__titulo{
+    font-size: 1rem;    
+    }
+    
+}

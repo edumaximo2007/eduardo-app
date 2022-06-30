@@ -1,0 +1,80 @@
+.pessoal{
+    padding: 0 15px 0 15px;
+}
+
+.pessoal__masculino, .pessoal__email, .pessoal__nome,
+.pessoal__tel, .pessoal__site, .pessoal__nascimento, 
+.pessoal__nacionalidade, .pessoal__endereco,
+.pessoal__estado--civil, .pessoal__github, .pessoal__linkedin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.pessoal h4{
+    font-size: .8rem;
+    
+}
+
+.pessoal i{
+    color: var(--roxo);
+}
+
+.pessoal a {
+    margin: 5px 0 ;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+@media screen and (max-width: 768px) {
+    .pessoal__masculino, .pessoal__email, .pessoal__nome,
+    .pessoal__tel, .pessoal__site, .pessoal__nascimento, 
+    .pessoal__nacionalidade, .pessoal__endereco,
+    .pessoal__estado--civil, .pessoal__github, .pessoal__linkedin {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .pessoal h4{
+        font-size: .6rem;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pessoal__masculino, .pessoal__email, .pessoal__nome,
+    .pessoal__tel, .pessoal__site, .pessoal__nascimento, 
+    .pessoal__nacionalidade, .pessoal__endereco,
+    .pessoal__estado--civil, .pessoal__github, .pessoal__linkedin {
+
+        flex-direction: row;
+        gap: 10px;
+        margin: 5px 0;
+        
+        
+    }
+    .pessoal h4{
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pessoal__masculino, .pessoal__email, .pessoal__nome,
+    .pessoal__tel, .pessoal__site, .pessoal__nascimento, 
+    .pessoal__nacionalidade, .pessoal__endereco,
+    .pessoal__estado--civil, .pessoal__github, .pessoal__linkedin {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .pessoal h4{
+        font-size: .6rem;
+        
+    }
+}

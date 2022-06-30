@@ -1,0 +1,8 @@
+.competencias{
+    background: var(--amarelo);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+}
+

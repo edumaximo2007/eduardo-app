@@ -1,0 +1,7 @@
+@media screen and (max-width: 600px) {
+    .experiencias__lista{
+        
+        margin: 0;
+        padding: 0;
+    }
+}

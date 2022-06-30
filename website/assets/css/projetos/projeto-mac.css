@@ -1,0 +1,14 @@
+.projeto__mac{
+    align-items: flex-start;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .projeto__mac{
+        display: none;
+    }
+}

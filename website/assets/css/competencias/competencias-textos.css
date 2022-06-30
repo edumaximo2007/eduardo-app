@@ -1,0 +1,32 @@
+.competencias__textos{
+    color: var(--preto);
+    padding: 0 60px;
+    width: 40%;
+}
+
+@media screen and (max-width: 1024px) {
+    .competencias__textos{
+        color: var(--preto);
+        padding: 0 30px;
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .competencias__textos{
+        color: var(--preto);
+        padding: 0 10px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .competencias__textos{
+        color: var(--preto);
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+}

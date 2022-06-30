@@ -1,0 +1,14 @@
+.experiencias__empresa{
+    width: 70%;
+}
+
+.experiencias__empresa span{
+    color: var(--roxo);
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .experiencias__empresa{
+        width: 100%;
+    }
+}

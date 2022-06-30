@@ -1,0 +1,112 @@
+body{
+    background:#d2d2c1 url("../images/fundo.png");
+    background-repeat: repeat;
+    font: 16px arial, helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*#NAV*/
+.nav{
+	height: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+	background-color: #d2d2c1;
+
+
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    
+    list-style-type: none;
+   
+}
+li a{
+    color: #4b566a;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #f4f4f4;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+/*#CORPO*/
+main{
+    width: 100%;
+    
+    
+
+}
+section{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:#e8e8d9;
+    
+}
+
+section div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section h1{
+    color: slategray;
+}
+
+/*#RODA-PÉ*/
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+/*BIOGRAFIA IMAGENS*/
+article div{
+    text-align: center;
+}
+.campaign{
+    border:#d2d2c1 solid 10px;
+    width: 50%;
+}
+/*CONNTATO*/
+.contato{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contatos{
+    margin-left: 10px;
+}
+
+/* mobile */
+
+@media screen and (max-width: 767.9px) {
+    .campaign{
+        width: 100%;
+    }
+    ul{
+        padding: 0;
+    }
+    a{
+       font-size: .5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    img{
+        height:80vh ;
+    }
+    
+}

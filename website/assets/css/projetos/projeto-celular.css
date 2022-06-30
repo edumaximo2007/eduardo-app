@@ -1,0 +1,13 @@
+.projeto__celular{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 767.9px) {
+    .projeto__celular{
+        align-items: flex-start;
+        padding-bottom: 20px;
+    }
+    
+}
