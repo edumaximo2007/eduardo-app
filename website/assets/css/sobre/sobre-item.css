@@ -1,23 +1,9 @@
 .sobre__item{
-    color: var(--amarelo);
-    display: flex;
-    font-size: 26px;
-    gap: 100px;
-    justify-content: space-between;
-    align-items: flex-start;
-
+    margin: 0 5px 5px 5px;
 }
 
-@media screen and (max-width: 767.9px) {
+@media (max-width: 767.9px) {
     .sobre__item{
-       gap: 50px;
+        margin: 0 8px 8px 8px;
     }
-    
-}
-
-@media screen and (max-width: 375.9px) {
-    .sobre__item{
-       gap: 20px;
-    }
-    
 }

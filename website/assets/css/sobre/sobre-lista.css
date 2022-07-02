@@ -1,0 +1,30 @@
+.sobre__lista{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 859.9px) {
+    .sobre__lista{
+        justify-content:center ;
+    }
+}
+
+@media (max-width: 699.9px) {
+    .sobre__lista{
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
+@media (max-width: 520.9px) {
+    .sobre__lista{
+        width: 70%;
+    }
+}
+
+@media (max-width: 375.9px) {
+    .sobre__lista{
+        width: 80%;
+    }
+}
