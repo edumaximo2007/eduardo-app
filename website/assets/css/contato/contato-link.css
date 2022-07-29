@@ -1,8 +1,0 @@
-.contato__link{
-    color: var(--branco);
-}
-
-.contato__link:hover{
-    color: var(--gelo);
-    text-decoration: none;
-}
