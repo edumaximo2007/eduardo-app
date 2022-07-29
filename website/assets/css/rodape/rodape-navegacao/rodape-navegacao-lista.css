@@ -4,6 +4,8 @@
     align-items: flex-start;
     padding: 0px;
     gap: 18px;
+    -moz-column-gap: 18px;
+    -webkit-column-gap: 18px;
 }
 
 @media (max-width: 767.98px) {
