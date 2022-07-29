@@ -1,18 +1,33 @@
 :root{
+    --azul: #00C4F0;
     --amarelo: #FFE73D;
     --branco: #FFFFFF;
+    --cinza-2: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
     --fundo: #272727;
+    --fundo-foto-caixa: #2C2C2C;
     --fundo-dois: #252525;
     --gelo: #D7DBD2;
+    --texto: #E4E4E4;
     --preto: #000000;
+    --fundo-geral: linear-gradient(#2C2C2C 0%,#1C1C1C 100% );
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Lato', sans-serif;
+    --fundo-laranja: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%) ;
+    --laranja:#E2A100;
 }
 
 body{
-    color: var(--fundo);
-    font-family: 'Josefin Sans', sans-serif;
+    background: var(--fundo-geral);
+    font-family: var(--fonte-principal);
     margin: 0;
     padding: 0;
+    scroll-behavior: initial;
+    
 }
 
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
+
+
 

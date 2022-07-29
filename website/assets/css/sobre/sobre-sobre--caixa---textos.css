@@ -1,0 +1,86 @@
+@media (min-width: 1200px) {
+    .sobre-sobre__caixa--textos{
+        position: relative;
+        width: 796px;
+        height: 562px;
+        background: var(--fundo-foto-caixa);
+        border-radius: 14px;
+        padding: 40px 30px;
+        box-sizing: content-box;
+        top: 9rem;
+        left: 420px;
+        color: var(--branco);
+        font-family: var(--fonte-secundaria);
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        z-index: 1;
+        
+    }
+}
+
+@media (max-width: 767.98px) {
+    .sobre-sobre__caixa--textos{
+        width: 80%;
+        height: 662px;
+        background: var(--fundo-foto-caixa);
+        border-radius: 14px;
+        padding: 40px 30px;
+        box-sizing: content-box;
+        top: 9rem;
+        left: 420px;
+        color: var(--branco);
+        font-family: var(--fonte-secundaria);
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        z-index: 1;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .sobre-sobre__caixa--textos{
+        position: relative;
+        width: 296px;
+        height: 662px;
+        background: var(--fundo-foto-caixa);
+        border-radius: 14px;
+        padding: 40px 30px;
+        box-sizing: content-box;
+        top: 9rem;
+        left: 210px;
+        color: var(--branco);
+        font-family: var(--fonte-secundaria);
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1199.98px) {
+    .sobre-sobre__caixa--textos{
+        position: relative;
+        /* width: 400px; */
+        height: 662px;
+        background: var(--fundo-foto-caixa);
+        border-radius: 14px;
+        padding: 40px 30px;
+        box-sizing: content-box;
+        top: 9rem;
+        left: 310px;
+        color: var(--branco);
+        font-family: var(--fonte-secundaria);
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        z-index: 1;
+    }
+}

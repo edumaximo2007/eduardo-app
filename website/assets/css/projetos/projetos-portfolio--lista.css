@@ -1,0 +1,21 @@
+.projetos-portfolio__lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.projetos-portfolio__lista .projetos-portfolio__item--visible {
+    animation: Visibility 1s;    
+  }
+
+  @keyframes Visibility {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: opacity linear;  
+    }
+  }

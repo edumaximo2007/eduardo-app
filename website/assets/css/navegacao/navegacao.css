@@ -1,4 +1,10 @@
 .navegacao{
-    background-color: var(--fundo-dois) !important;
-    flex-direction: row-reverse;
+    height: 48px;
+    display: flex;
+}
+@media (max-width:767.98px) {
+    .navegacao{
+        justify-content: space-around;
+        width: 100%;
+    }
 }

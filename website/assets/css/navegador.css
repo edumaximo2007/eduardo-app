@@ -1,5 +1,37 @@
-.navegador{
-    background: var(--fundo-dois);
-    height: 50px;
-    padding-top: 20px;
+
+#btn-mobile{
+    display: none;
+}
+@media (min-width: 1200px) {
+    .navegador{
+        width: 1110px;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 26px auto;
+    }
+    
+}
+
+
+@media (max-width: 767.98px) {
+    .navegador{
+        height: 50px;
+        display: flex;
+        margin: 26px auto;
+    }
+    
+    .navegador__logo{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .navegador{
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 26px auto;
+        padding-left: 40px;
+    }
 }

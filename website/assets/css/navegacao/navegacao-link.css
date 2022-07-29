@@ -1,8 +1,9 @@
 .navegacao__link{
-    color: var(--branco) !important;
+    color: var(--branco);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .navegacao__link:hover{
-    color: var(--gelo) !important;
+    color: var(--gelo);
 }

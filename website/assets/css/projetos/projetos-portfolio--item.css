@@ -1,0 +1,16 @@
+.projetos-portfolio__item{
+   display: none;
+}
+
+.projetos-portfolio__item--visible{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+@media (max-width: 767.98px) {
+   .projetos-portfolio__item--visible{
+      display: flex;
+      flex-direction: column;
+   }
+}

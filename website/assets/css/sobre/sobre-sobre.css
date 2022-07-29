@@ -1,4 +1,59 @@
-.sobre__sobre{
+.sobre-sobre{
+    height: 949.9998779296875px;
+    width: 1102px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background: url(../../img/Ellipse-6.png) no-repeat center;
+    background-size: 692px 692px;
+    background-position: 1rem ;
+}
+
+.sobre-final{
+    display: flex;
+    justify-content: center;
     width: 100%;
-    margin: 0 auto;
+    height: 949.9998779296875px;
+}
+
+@media (max-width: 767.98px) {
+    .sobre-sobre{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-final,
+    .sobre-sobre {
+        background: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .sobre-final,
+    .sobre-sobre{
+        background: none;
+        margin: 0 auto;
+    }
+    .sobre-sobre{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sobre-final{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .sobre-sobre{
+        width: 940px;
+    }
+    .sobre-final{
+        display: flex;
+        justify-content: center;
+        height: 1049.9px
+    }
 }

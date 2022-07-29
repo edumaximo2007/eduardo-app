@@ -1,0 +1,29 @@
+@media (min-width: 1200px) {
+
+    
+}
+
+.principais__botao{
+    height: 47px;
+    width: 200px;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.principais__botao:hover{
+    box-shadow:  0px 2px 13px  #E2A300 4.47%, #E29500 95.53%;
+    background: rgba(226, 158, 0, 0.48);
+}
+.principais__botao-link{
+    text-decoration: none;
+    color: var(--preto);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+}

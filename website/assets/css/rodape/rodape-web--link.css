@@ -1,8 +1,9 @@
 .rodape__web___link{
-    color: var(--fundo);
+    color: var(--branco);
+    text-decoration: none;
 }
 
 .rodape__web___link:hover{
-    color: var(--fundo-dois);
+    color: var(--laranja);
     text-decoration: none;
 }

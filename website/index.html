@@ -7,10 +7,10 @@
     <title>Sacramento</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100&family=Poppins&display=swap" rel="stylesheet">        <link rel="stylesheet" href="./assets/css/reset.css">
     <script src="https://kit.fontawesome.com/6426497bb7.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/container.css">
     <link rel="stylesheet" href="./assets/css/containers.css">
@@ -22,13 +22,41 @@
     <link rel="stylesheet" href="./assets/css/navegacao/navegacao.css">
     <link rel="stylesheet" href="./assets/css/principal.css">
     <link rel="stylesheet" href="./assets/css/principais/principais-ano.css">
-    <link rel="stylesheet" href="./assets/css/principais/principais-nome.css">
+    <link rel="stylesheet" href="./assets/css/principais/principais-paragrafo.css">
     <link rel="stylesheet" href="./assets/css/principais/principais-subtitulo.css">
     <link rel="stylesheet" href="./assets/css/principais/principais-textos.css">
+    <link rel="stylesheet" href="./assets/css/principais/principais-botao.css">
     <link rel="stylesheet" href="./assets/css/principais/principais-titulo.css">
     <link rel="stylesheet" href="./assets/css/principais/principais-img.css">
     <link rel="stylesheet" href="./assets/css/principais/principais.css">
+    <link rel="stylesheet" href="./assets/css/sobre.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-sobre.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-lista.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-item.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-item--titulo.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-sobre--caixa---titulo.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-sobre--caixa---textos.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-sobre--caixa-foto.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-sobre--caixa-imagem.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-final--imagem.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-final--imagem-imagem.css">
+    <link rel="stylesheet" href="./assets/css/projeto.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-controle--ajuste.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projeto-titulo.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-portfolio.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-portfolio--caixa.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-portfolio--imagem.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-portfolio--item.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-portfolio--link.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-portfolio--lista.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-portfolio--texto.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-portfolio--titulo.css">
     <link rel="stylesheet" href="./assets/css/rodape.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-navegacao/rodape-navegacao.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-navegacao/rodape-navegacao-lista.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-navegacao/rodape-navegacao-item.css">
+    <link rel="stylesheet" href="./assets/css/rodape/rodape-navegacao/rodape-navegacao-link.css">
     <link rel="stylesheet" href="./assets/css/rodape/rodape-redes--link.css">
     <link rel="stylesheet" href="./assets/css/rodape/rodape-redes.css">
     <link rel="stylesheet" href="./assets/css/rodape/rodape-web--link.css">
@@ -36,60 +64,311 @@
     <link rel="stylesheet" href="./assets/css/rodape/rodape-redes--link---icon.css">
 </head>
 <body>
-    <div class="containers">
-        <header class="navegador containerr">
-            <nav class="navegacao navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-               <!--  <a class="navbar-brand" href="index.html"><img src="./assets/img/logo.gif" alt="logo"></a>
-                --> <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navegacao">
-                      <ul class="navegacao__lista navbar-nav ml-auto">
-                          <li class="navegacao__item nav-item">
-                              <a href="index.html" class="navegacao__link nav-link">Home</a>
-                            </li>
-                          <li class="navegacao__item nav-item">
-                              <a href="sobre.html" class="navegacao__link nav-link">Sobre</a>
-                            </li>
-                          <li class="navegacao__item nav-item">
-                              <a href="projetos.html" class="navegacao__link nav-link">Projetos</a>
-                            </li>
-                          <li class="navegacao__item nav-item">
-                              <a href="competencias.html" class="navegacao__link nav-link">Competências</a>
-                            </li>
-                          <li class="navegacao__item nav-item">
-                              <a href="contato.html" class="navegacao__link nav-link">Contato</a>
-                            </li>
-                      </ul>
-                  </div>
-            </nav>
-        </header>
-        <main class="principal">
-            <section class="principais">
-                <div class="principais__img">
-                    <img class="principais__imagem" src="./assets/img/fundo.gif" height="200" alt="">
+    <header class="navegador containerr" id="topo">
+        <div class="navegador__logo">
+            <a href="index.html" class="navegador__logo-link">
+                <img src="./assets/img/logo1.png" alt="logo" class="navegador__logo-link--imagem" width="50">
+            </a>
+        </div>
+        <nav class="navegacao">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburger"></span>
+            </button>
+            <ul class="navegacao__lista ">
+                <li class="navegacao__item ">
+                    <a href="index.html" class="navegacao__link">Home</a>
+                </li>
+                <li class="navegacao__item">
+                    <a href="#sobre" class="navegacao__link">About</a>
+                </li>
+                <li class="navegacao__item">
+                    <a href="#projeto" class="navegacao__link">Projects</a>
+                </li>
+                <li class="navegacao__item">
+                    <a href="#contato" class="navegacao__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="principal">
+        <section class="principais">
+            <div class="principais__textos">
+                <h1 class="principais__titulo">Hello</h1>
+                <h2 class="principais__subtitulo">I’m Eduardo Sacramento</h2>
+                <p class="principais__paragrafo">I've been doing front-end development for a year now. Do you need a web or frontend developer? so contact me</p>
+                <button class="principais__botao"><a class="principais__botao-link" href="#contato">Contact me</a></button>
+            </div>
+            <div class="principais__img">
+                <img class="principais__imagem" src="./assets/img/Ellipse1.png" alt="circulo azulado">
+                <div class="principais__spans">
+                    <span class="corew">CD</span>
+                    <span class="photoshop">PS</span>
+                    <span class="coder">/></span>
+                    <span class="span-caixa__imagem">
+                        <img class="span-imagem" src="./assets/img/IMG_0829_Original (Editado) 1.png" alt="Foto do Eduardo">
+                    </span>
                 </div>
-                <div class="principais__textos">
-                    <h1 class="principais__titulo">Front End</h1>
-                    <h2 class="principais__subtitulo">Developer</h2>
-                    <p class="principais__nome">Eduardo Sacramento / Portfolio</p>
-                    <p class="principais__ano">2022</p>
+            </div>
+        </section>
+        <section class="sobre">
+            <ul class="sobre__lista">
+                <li class="sobre__item">
+                    <i class="fa-brands fa-html5 fa-4x"></i>
+                    <p class="sobre-item__titulo">Html5</p> 
+                </li>
+                <li class="sobre__item">
+                    <i class="fa-brands fa-css3-alt fa-4x"></i>
+                    <p class="sobre-item__titulo">Css3</p>
+                </li>
+                <li class="sobre__item">
+                    <i class="fa-brands fa-js-square fa-4x"></i>
+                    <p class="sobre-item__titulo">Javascript</p>  
+                </li>
+                <li class="sobre__item">
+                    <i class="fa-brands fa-bootstrap fa-4x"></i>
+                    <p class="sobre-item__titulo">Bootstrap</p>
+                </li>
+                <li class="sobre__item">
+                    <i class="fa-brands fa-sass fa-4x"></i>
+                    <p class="sobre-item__titulo">Sass</p>  
+                </li>
+                <li class="sobre__item">
+                    <i class="fa-brands fa-git-alt fa-4x"></i>
+                    <p class="sobre-item__titulo">Git</p>
+                </li>
+                <li class="sobre__item">
+                    <i class="fa-brands fa-react fa-4x"></i>
+                    <p class="sobre-item__titulo">React</p>  
+                </li>
+                <li class="sobre__item">
+                    <i class="fa-brands fa-python fa-4x"></i>
+                    <p class="sobre-item__titulo">Python</p>
+                </li>
+                <li class="sobre__item">
+                    <img src="./assets/logos/typescript.svg" alt="" width="60">
+                    <p class="sobre-item__titulo">Typescript</p>
+                </li>
+                <li class="sobre__item">
+                    <img src="./assets/logos/Postgresql_elephant.svg" alt="" width="60">
+                    <p class="sobre-item__titulo">Postgresql</p>
+                </li>
+            </ul>
+            <div class="sobre-final">
+                <div class="sobre-sobre">
+                    <h1 class="sobre-sobre__caixa--titulo" id="sobre">About me</h1>
+                    <div class="sobre-sobre__caixa--textos">
+                        <p class="sobre-sobre__caixa--paragrafo">Hello again everyone! So, you already know that my name is Eduardo. A little about me: student, 32 years old, athlete-bodybuilder, I love creativity since I was a child, I live in Itapema, Brazil. Why program? Everything is elementary - development, and the profession of the future, thanks to which I can provide and fulfill my dream, at the moment I specialize in web and front-end development. Why should you choose me? I approach each order with a lot of responsibility and love as I want to make a name for myself, exclude plagiarism and neglect, thoroughly study the project, the client and its target audience, work for quality, trying to make an order as fast and unique as possible, taking into account all edits and wishes.
+                            By trusting me, you will get maximum return from your project, saving your nerves and time.
+                            If you are interested in me, want to know something more or use my services, I will provide all my contacts below.</p>
+                        </div>                   
+                        <div class="sobre-sobre__caixa-foto-1">
+                            <img class="sobre-sobre__caixa-imagem-1" src="./assets/img/foto1.jpg" alt="Eduardo engravatado">
+                        </div>
+                        <div class="sobre-sobre__caixa-foto-2">
+                            <img class="sobre-sobre__caixa-imagem-2" src="./assets/img/foto3.jpg" alt="Eduardo e Maindra">
+                        </div>
+                        <div class="sobre-sobre__caixa-foto-3">
+                            <img class="sobre-sobre__caixa-imagem-3" src="./assets/img/foto2.jpeg" alt="Eduardo com vista par o mar de fundo">
+                        </div>
+                    </div>
+                    <div class="sobre-final__imagem">
+                        <img class="sobre-final__imagem-imagem" src="./assets/img/Ellipse-7.png" alt=" circulo azul">
+                    </div>
+                    <div class="sobre-final__imagem2">
+                        <img class="sobre-final__imagem-imagem-2" src="./assets/img/Ellipse-8.png" alt="l=circulo laranja">
+                    </div>
+                </div>  
+            </section>
+            <section class="projeto" >
+                <div class="projetos">
+                    <div class="projetos-botoes">
+                        <buttom class="projetos-controle__ajuste next" data-controle="+"><i class="fa-solid fa-arrow-right fa-2x"></i></buttom>
+                        <buttom class="projetos-controle__ajuste prev" data-controle="-"><i class="fa-solid fa-arrow-left fa-2x"></i></buttom>
+                    </div>
+                    <h1 class="projetos-titulo" id="projeto">Projects</h1>
+                    <div class="projetos-portfolio">
+                        <ul class="projetos-portfolio__lista">
+                            <li class="projetos-portfolio__item projetos-portfolio__item--visible">
+                                <img src="./assets/img/anaa-bella.jpg" alt=" capa anna bella" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa" data-caixa="">
+                                    <h3 class="projetos-portfolio__titulo">Anna Bella</h3>
+                                    <p class="projetos-portfolio__texto">Fictitious website developed for model Anna Bella, adapted for all mobile devices.</p>
+                                    <a href="./assets/Annna-Bella/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/alurinha.jpg" alt="miniatura lading page alurinha" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Alurinha</h3>
+                                    <p class="projetos-portfolio__texto">Alurinha is a landing page developed in flex-box responsive layout for all screens.</p>
+                                    <a href="./assets/Alurinha/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/game-store.jpg" alt="miniatura lading page game store" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Game Store</h3>
+                                    <p class="projetos-portfolio__texto">Game Store is a landing page developed in responsive grid layout adaptable to all screens.</p>
+                                    <a href="./assets/live-store/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/museu-nacional.jpg" alt="capa museu nacional" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Museu Nacional</h3>
+                                    <p class="projetos-portfolio__texto">Landing page Museu Nacional 100% responsive with mobile menu in Javascript.</p>
+                                    <a href="./assets/Museu-Nacional/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/noticias-cidade.jpg" alt="miniatura noticias cidade" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Noticias Cidade</h3>
+                                    <p class="projetos-portfolio__texto">Landing page News City adaptable for all screens with Bootstrap 4.</p>
+                                    <a href="./assets/Noticias Cidade/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/paralax.jpg" alt="paralax em miniatura" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Paralax</h3>
+                                    <p class="projetos-portfolio__texto">Landing page creating Parallax effect in a project.</p>
+                                    <a href="./assets/Paralax/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/pousada-oceano.jpg" alt="miniatura landing page pousada oceano" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Pousada Oceano</h3>
+                                    <p class="projetos-portfolio__texto">Lading page of a real web site with small changes adaptable to all screens.</p>
+                                    <a href="./assets/Pousada-ocenao/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/apperia.jpg" alt="miniatura lading page apperia" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Apeperia</h3>
+                                    <p class="projetos-portfolio__texto">Apeperia is a 100% responsive landing page adaptable to all screens with a touch of accessibility for PwD users.</p>
+                                    <a href="./assets/projeto-apeperia/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/chale-hotel.jpg" alt="miniatura landing page chale hotel" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Chalé Hotel</h3>
+                                    <p class="projetos-portfolio__texto">Chale Hotel landing page static mobile first.</p>
+                                    <a href="./assets/Projeto-chale/index.html" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/finans.jpg" alt="landing page miniatura finans" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Finans</h3>
+                                    <p class="projetos-portfolio__texto">Responsive landing page adaptable to all screens, with mobile menu made in Javascript.</p>
+                                    <a href="./assets/Projeto-Finans/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/tecblog.jpg" alt="landing page miniatura tecblog" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">TecBlog</h3>
+                                    <p class="projetos-portfolio__texto">Landing page TecBlog mobile first.</p>
+                                    <a href="./assets/TecBlog/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/unes.jpg" alt="miniatura landing page unes" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Unes</h3>
+                                    <p class="projetos-portfolio__texto">Faculdade Unes was one of the first websites I developed in mobile first.</p>
+                                    <a href="./assets/UNES/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/robotron.jpg" alt="miniatura robotrom" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">RoboTrom</h3>
+                                    <p class="projetos-portfolio__texto">Robotron is a javascript web app project that is under development.</p>
+                                    <a href="./assets/Robotron 2000 - Preto/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/calculadora.jpg" alt="miniatura robotrom" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Calculadora</h3>
+                                    <p class="projetos-portfolio__texto">Calculator web app developed in javascript with the functionality of a traditional calculator.</p>
+                                    <a href="./assets/Calculadora/calculadora.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/workshop.jpg" alt="miniatura robotrom" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Workshop</h3>
+                                    <p class="projetos-portfolio__texto">Landing page mobile first developed to send information to a respective data server where it will notify the number of registrants for the workshop.</p>
+                                    <a href="./assets/Workshop/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                            <li class="projetos-portfolio__item">
+                                <img src="./assets/img/frutaefruto.jpg" alt="miniatura robotrom" class="projetos-portfolio__imagem">
+                                <div class="projetos-portfolio__caixa">
+                                    <h3 class="projetos-portfolio__titulo">Fruta & Fruto</h3>
+                                    <p class="projetos-portfolio__texto">Landing page Fruit & Fruit, using CSS architecture BEM.BEM is a CSS methodology (or naming convention) used worldwide. Read on to find out what CSS BEM is, advantages of using it, best practices with BEM, writing examples and much more.</p>
+                                    <a href="./assets/arquitetura-css/index.html" target="_blank" class="projetos-portfolio__link">More <i class="fa-solid fa-arrow-right fa-1x"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>   
             </section>
         </main>
         <footer class="rodape containerr">
-            <div class="rodape__web">
-                &copy;<a class="rodape__web___link" href="index.html">Sacramento - 2022</a>
-            </div>
-            <div class="rodape__redes">
-                <a class="rodape__redes__link" href="https://www.instagram.com/eduardo.maximos/"><i class="rodape__redes___link-icon fa-brands fa-instagram-square fa-2x"></i></a>
-                <a class="rodape__redes__link" href="https://www.facebook.com/eduardo.maximos/"><i class="rodape__redes___link-icon fa-brands fa-facebook-square fa-2x"></i></a>
-                <a class="rodape__redes__link" href="https://www.linkedin.com/in/eduardo-m-07383221b/"><i class="rodape__redes___link-icon fa-brands fa-linkedin fa-2x"></i></a>
+            <div class="rodape-caixa">
+                <nav class="rodape-ronavegacao">
+                    <ul class="rodape-navegacao__lista ">
+                        <li class="rodape-navegacao__item">
+                            <a href="#topo" class="rodape-navegacao__link">Home</a>
+                        </li>
+                        <li class="rodape-navegacao__item">
+                            <a href="#sobre" class="rodape-navegacao__link">About</a>
+                        </li>
+                        <li class="rodape-navegacao__item">
+                            <a href="#projeto" class="rodape-navegacao__link">Projects</a>
+                        </li>
+                        <li class="rodape-navegacao__item">
+                            <a href="#contato" class="rodape-navegacao__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="rodape__redes">
+                    <h4 id="contato" class="rodape-titulo">Contact</h4>
+                    <div>
+                        <i class="rodape__redes___link-icon fas fa-envelope fa-lg" aria-hidden="true"></i><a class="rodape__redes__link" href="mailto:edumaximo2007@hotmail.com">edumaximo2007@hotmail.com</a>
+                    </div>
+                    <div>
+                        <i class="rodape__redes___link-icon fas fa-phone fa-lg" aria-hidden="true"></i><a class="rodape__redes__link" href="tel:+5548991472433">+55 (48)99147-2433</a>
+                    </div>
+                    <div class="rodape-social">
+                        <a class="rodape__redes__link" target="_blank" href="https://www.instagram.com/eduardo.maximos/"><i class="rodape__redes___link-icon fa-brands fa-instagram-square fa-2x"></i></a>
+                        <a class="rodape__redes__link" target="_blank" href="https://www.facebook.com/eduardo.maximos/"><i class="rodape__redes___link-icon fa-brands fa-facebook-square fa-2x"></i></a>
+                        <a class="rodape__redes__link" target="_blank" href="https://www.linkedin.com/in/eduardo-m-07383221b/"><i class="rodape__redes___link-icon fa-brands fa-linkedin fa-2x"></i></a>
+                        <a class="rodape__redes__link" target="_blank" href="https://github.com/edumaximo2007"><i class="rodape__redes___link-icon fa-brands fa-github-square fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="rodape__web">
+                    <div class="rodape-web__caixa">
+                        <a href="index.html" class="rodape-logo__link">
+                            <img src="./assets/img/logo1.png" alt="logo" class="rodape-logo__link--imagem">
+                        </a>
+                        <buttom class="projetos-controle__ajuste"><a id="top" href="#topo"><i class="fa-solid fa-arrow-up fa-2x"></i></a></buttom>
+                    </div>
+                    <div class="rodape-copy">
+                        <a class="rodape__web___link" href="index.html">Copyright © 2022, Sacramento</a>
+                    </div>
+                </div>
             </div>
         </footer>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
-</html>
+        <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/carousel.js"></script>
+        
+    </body>
+    </html>

@@ -1,0 +1,6 @@
+.projeto{
+    width: 100%;
+    font-family: var(--fonte-secundaria);
+    display: flex;
+    justify-content: center;
+}

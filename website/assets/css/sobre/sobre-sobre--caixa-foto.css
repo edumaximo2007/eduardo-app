@@ -1,0 +1,107 @@
+.sobre-sobre__caixa-foto-1,
+.sobre-sobre__caixa-foto-2,
+.sobre-sobre__caixa-foto-3{
+    background: var(--fundo-foto-caixa);
+    border-radius: 14px;
+    display: flex;
+    border: 20px solid var(--fundo-foto-caixa);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    box-sizing: content-box;
+    
+}
+
+.sobre-sobre__caixa-foto-1{
+    width: 260px;
+    height: 180px;
+    top: 100px;
+    right: 200px;
+    z-index: 1;
+}
+.sobre-sobre__caixa-foto-2{
+    height: 160px;
+    top: 600px;
+    right: 390px;
+    z-index: 1;
+}
+
+.sobre-sobre__caixa-foto-3{
+    /* width: 624px; */
+    height: 310px;
+    right: 1rem;
+    top: 250px;
+    z-index: 1;
+}
+
+@media (max-width: 767.98px) {
+    .sobre-sobre__caixa-foto-1,
+    .sobre-sobre__caixa-foto-2,
+    .sobre-sobre__caixa-foto-3{
+        display: none;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .sobre-sobre__caixa-foto-1,
+    .sobre-sobre__caixa-foto-2,
+    .sobre-sobre__caixa-foto-3{
+        background: var(--fundo-foto-caixa);
+        border-radius: 14px;
+        display: flex;
+        border: 20px solid var(--fundo-foto-caixa);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        box-sizing: content-box;
+        
+    }
+    
+    .sobre-sobre__caixa-foto-1{
+        width: 140px;
+        height: 142px;
+        top: -650px;
+        left: 38px;
+    }
+    .sobre-sobre__caixa-foto-2{
+        width: 140px;
+        height: 140px;
+        top: -180px;
+        left: 38px;
+    }
+    
+    .sobre-sobre__caixa-foto-3{
+        width: 140px;
+        height: 210px;
+        left: 550px;
+        top: -700px;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+
+     
+    .sobre-sobre__caixa-foto-1{
+        width: 260px;
+        height: 150px;
+        right:240px;
+    }
+    .sobre-sobre__caixa-foto-2{
+        height: 150px;
+        right: 420px;
+
+    }
+    
+    .sobre-sobre__caixa-foto-3{
+        width: 224px;
+        height: 220px;
+        top: 400px;
+        right: 80px;
+        z-index: 1;
+    }
+}
+

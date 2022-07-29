@@ -1,0 +1,25 @@
+.rodape__web{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 25px;
+    width: 237.16px;
+    height: 138px;
+}
+
+.rodape-web__caixa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.rodape-logo__link--imagem{
+    width: 80%;
+}
+
+@media (max-width: 1023.98px) {
+    .rodape-logo__link--imagem{
+        width: 50%;
+    }
+}

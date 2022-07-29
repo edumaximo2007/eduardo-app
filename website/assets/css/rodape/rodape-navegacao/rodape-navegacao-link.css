@@ -1,0 +1,8 @@
+.rodape-navegacao__link{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.rodape-navegacao__link:hover{
+    color: var(--laranja);
+}

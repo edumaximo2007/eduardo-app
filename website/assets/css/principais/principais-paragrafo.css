@@ -1,0 +1,43 @@
+@media (min-width: 768px)  and (max-width: 1199.98px){
+    .principais__paragrafo{
+        color: var(--branco);
+        font-weight: 300;
+        height: 74px;
+        width: 330px;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+    } 
+}
+
+
+@media (max-width: 767.98px) {
+    .principais__paragrafo{
+        color: var(--branco);
+        font-weight: 300;
+        height: 74px;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .principais__paragrafo{
+        color: var(--branco);
+        font-weight: 300;
+        height: 74px;
+        width: 430px;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+    } 
+}
+
+
