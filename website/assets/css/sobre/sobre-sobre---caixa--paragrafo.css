@@ -1,0 +1,22 @@
+.sobre-sobre__caixa--paragrafo{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+}
+
+
+@media (max-width: 767.98px) {
+    .sobre-sobre__caixa--paragrafo{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px)  and (max-width: 1199.98px){
+    .sobre-sobre__caixa--paragrafo{
+        font-size: 18px;
+    }
+}
